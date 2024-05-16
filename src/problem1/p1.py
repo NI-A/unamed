@@ -34,9 +34,9 @@ Z = func((X, Y), *popt)
 # 绘制拟合曲面
 ax.plot_surface(X, Y, Z, alpha=0.5, cmap='viridis', label='Fit')
 
-ax.set_xlabel('出手速度 (m/s)')
-ax.set_ylabel('出手角度 (°)')
-ax.set_zlabel('投掷距离 (m)')
+ax.set_xlabel('Speed (m/s)')
+ax.set_ylabel('Angle (°)')
+ax.set_zlabel('Distance (m)')
 
 plt.legend()
 plt.show()
